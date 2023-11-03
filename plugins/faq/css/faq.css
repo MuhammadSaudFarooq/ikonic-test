@@ -1,0 +1,14 @@
+.qa-fields span {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.qa-fields input {
+  width: 100%;
+}
+
+.qa-fields > label:first-child {
+  display: block;
+  margin-bottom: 15px;
+}

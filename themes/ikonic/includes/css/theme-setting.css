@@ -1,0 +1,42 @@
+.website_logo > div {
+  position: relative;
+  width: 300px;
+}
+
+.website_logo img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #8c8f94;
+  cursor: pointer;
+}
+
+.website_logo input {
+  display: none;
+}
+
+.website_logo .remove_logo {
+  position: absolute;
+  top: 8px;
+  right: 4px;
+  font-size: 22px;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.website_address textarea,
+.website_contact input {
+  width: 302px;
+  border-radius: 0;
+}
+
+.save_theme_setting {
+  margin-top: 30px;
+}
+
+.theme-loader {
+  background-image: url(images/spinner-2x.gif);
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: 20px 20px;
+}
